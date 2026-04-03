@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>أنا وأنتي ❤️</title>
+<style>
+body {
+  background: #ffdde1;
+  text-align: center;
+  font-family: Arial;
+}
+h1 {
+  color: #e6005c;
+}
+button {
+  padding: 10px 20px;
+  background: #ff4d88;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>❤️ أنا و [منه] ❤️</h1>
+<p>من يوم ما عرفتك، حياتي بقت أحلى بكتير 💖</p>
+
+<button onclick="showMessage()">اضغطي هنا 💌</button>
+
+<p id="msg"></p>
+
+<script>
+function showMessage() {
+  document.getElementById("msg").innerHTML = "بحبك جدًا ومش متخيل حياتي من غيرك ❤️";
+}
+</script>
+
+</body>
+</html>
